@@ -1,0 +1,19 @@
+@'
+# Virtual envs
+venv/
+.venv/
+env/
+ENV/
+
+# Secrets
+.env
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Build/DS junk
+dist/
+build/
+.ipynb_checkpoints/
+'@ | Out-File -Encoding utf8 .gitignore
